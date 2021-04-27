@@ -1,0 +1,2 @@
+initial_log_likelihood	dispersal_rates	extinction_rates	final_log_likelihood	splits_table_fn	states_table_fn
+NA	0.1794	5.054e-07	-3.472	/drives/GDrive/__GDrive_projects/2018-01-02_Ree_Sanmartin/_example_scripts/3species_ABB_ML_DECvDECj_LGpy/ABB.results_splits00001.txt	

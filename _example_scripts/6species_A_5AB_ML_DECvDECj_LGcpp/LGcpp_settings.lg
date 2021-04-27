@@ -1,0 +1,21 @@
+# Run with:
+# cd /drives/GDrive/__GDrive_projects/2018-01-02_Ree_Sanmartin/_example_scripts/6species_A_5AB_ML_DECvDECj_LGcpp/
+# ./lagrange_cpp /drives/GDrive/__GDrive_projects/2018-01-02_Ree_Sanmartin/_example_scripts/6species_A_5AB_ML_DECvDECj_LGcpp/LGcpp_settings.lg | tee /drives/GDrive/__GDrive_projects/2018-01-02_Ree_Sanmartin/_example_scripts/6species_A_5AB_ML_DECvDECj_LGcpp/LGcpp_out.txt
+
+treefile = tree_6species.newick
+datafile = geog_6species.data
+logfile = LGcpp_log.txt
+
+# if calctype = m, marginal is set to TRUE? otherwise FALSE (??)
+# NOTE: calctype = 0 results in LOWER LnL, not sure what its for
+calctype = m
+#periods = 20 200
+areanames = A B
+# equal: A B
+
+logfile = logfile
+ancstate = _all_
+states
+splits
+#sparse
+#estimate_dispersal_mask

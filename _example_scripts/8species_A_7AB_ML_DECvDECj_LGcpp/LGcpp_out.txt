@@ -1,0 +1,113 @@
+reading tree...
+Tree 1 has 8 leaves.
+reading data...
+Reading species: sp1 10
+Reading species: sp2 11
+Reading species: sp3 11
+Reading species: sp4 11
+Reading species: sp5 11
+Reading species: sp6 11
+Reading species: sp7 11
+Reading species: sp8 11
+checking data...
+initializing nodes...
+initializing branch segments...
+setting default model...
+setting up tips...
+starting likelihood calculations
+initial -ln likelihood: 21.7964
+Optimizing (simplex) -ln likelihood.
+dis: 0.905516 ext: 4.44398e-10
+final -ln likelihood: 1.31546
+Ancestral splits for:	1
+	A_B|A	0.413192	(2.1993)
+	A|A	0.340683	(2.39226)
+	B|A	0.246125	(2.71738)
+
+Ancestral states for:	1
+	A_B	0.659317	(1.73201)
+	A	0.340683	(2.39226)
+
+Ancestral splits for:	2
+	A|A	0.216772	(2.84437)
+	A_B|A	0.189484	(2.97891)
+	B|A	0.158506	(3.15742)
+	B|A_B	0.105579	(3.56375)
+	B|B	0.0860081	(3.76877)
+	A_B|B	0.0751811	(3.90332)
+	A|B	0.0628901	(4.08183)
+
+Ancestral states for:	2
+	A_B	0.69722	(1.67611)
+	A	0.216772	(2.84437)
+
+Ancestral splits for:	3
+	A|A	0.178913	(3.03632)
+	A_B|A	0.140638	(3.27703)
+	B|A	0.131341	(3.34542)
+	B|B	0.127026	(3.37882)
+	B|A_B	0.114489	(3.48273)
+	A_B|B	0.0998514	(3.61953)
+	A|B	0.093251	(3.68792)
+
+Ancestral states for:	3
+	A_B	0.694061	(1.68066)
+	A	0.178913	(3.03632)
+	B	0.127026	(3.37882)
+
+Ancestral splits for:	4
+	A|A	0.165364	(3.11507)
+	B|B	0.14449	(3.25)
+	A_B|A	0.124509	(3.39884)
+	B|A	0.121181	(3.42593)
+	B|A_B	0.11489	(3.47924)
+	A_B|B	0.108792	(3.53378)
+	A|B	0.105884	(3.56087)
+
+Ancestral states for:	4
+	A_B	0.690146	(1.68631)
+	A	0.165364	(3.11507)
+	B	0.14449	(3.25)
+
+Ancestral splits for:	5
+	A|A	0.162738	(3.13108)
+	B|B	0.154173	(3.18514)
+	A_B|A	0.117568	(3.4562)
+	B|A	0.116297	(3.46707)
+	B|A_B	0.113834	(3.48848)
+	A_B|B	0.11138	(3.51027)
+	A|B	0.110176	(3.52113)
+
+Ancestral states for:	5
+	A_B	0.683089	(1.69659)
+	A	0.162738	(3.13108)
+	B	0.154173	(3.18514)
+
+Ancestral splits for:	6
+	A|A	0.181411	(3.02245)
+	B|B	0.177502	(3.04424)
+	A_B|A	0.108249	(3.53878)
+	B|A	0.107776	(3.54316)
+	B|A_B	0.106847	(3.55182)
+	A_B|B	0.105916	(3.56057)
+	A|B	0.105453	(3.56495)
+
+Ancestral states for:	6
+	A_B	0.641087	(1.76005)
+	A	0.181411	(3.02245)
+	B	0.177502	(3.04424)
+
+Ancestral splits for:	7
+	A|A	0.334701	(2.40998)
+	B|B	0.331769	(2.41878)
+	A_B|A	0.0558822	(4.19997)
+	B|A	0.0557835	(4.20174)
+	B|A_B	0.0555883	(4.20524)
+	A_B|B	0.0553928	(4.20877)
+	A|B	0.0552949	(4.21054)
+
+Ancestral states for:	7
+	A	0.334701	(2.40998)
+	A_B	0.33353	(2.41348)
+	B	0.331769	(2.41878)
+

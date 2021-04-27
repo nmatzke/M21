@@ -1,0 +1,90 @@
+Lagrange: likelihood analysis of geographic range evolution
+Version: 20130526
+Author: Richard Ree <rree@fieldmuseum.org>
+https://github.com/rhr/lagrange-python
+
+Newick tree with interior nodes labeled:
+(sp6:5.0,(sp5:4.0,(sp4:3.0,(sp3:2.0,(sp2:1.0,sp1:1.0)N6:1.0)N7:1.0)N8:1.0)N9:1.0)N10:0.0;
+
+
+Cladogram (branch lengths not to scale):
+   -----------------------------------------------------------------+ [AB] sp6 
+N10+                                                                           
+   :            ----------------------------------------------------+ [AB] sp5 
+   -----------N9+                                                              
+                :            ---------------------------------------+ [AB] sp4 
+                -----------N8+                                                 
+                             :            --------------------------+ [AB] sp3 
+                             -----------N7+                                    
+                                          :            -------------+ [AB] sp2 
+                                          -----------N6+                       
+                                                       -------------+ [A] sp1  
+
+
+
+Global ML at root node:
+  -lnL = 1.312
+  dispersal = 0.8967
+  extinction = 4.285e-09
+
+Ancestral range subdivision/inheritance scenarios ('splits') at
+internal nodes.
+
+* Split format: [left|right], where 'left' and 'right' are the ranges
+  inherited by each descendant branch (on the printed tree, 'left' is
+  the upper branch, and 'right' the lower branch).
+
+* Only splits within 2 log-likelihood units of the maximum for each
+  node are shown.  'Rel.Prob' is the relative probability (fraction of
+  the global likelihood) of a split.
+
+At node N10:
+   split   lnL     Rel.Prob
+   [A|A]   -2.385  0.342   
+   [B|B]   -2.441  0.3234  
+   [AB|A]  -4.166  0.05765 
+   [B|A]   -4.177  0.057   
+   [B|AB]  -4.199  0.05576 
+   [A|AB]  -4.199  0.05576 
+   [AB|B]  -4.221  0.05452 
+   [A|B]   -4.233  0.05391 
+
+At node N9:
+   split   lnL     Rel.Prob
+   [A|A]   -2.962  0.1921  
+   [B|B]   -3.1    0.1674  
+   [AB|A]  -3.468  0.1158  
+   [B|A]   -3.496  0.1126  
+   [B|AB]  -3.551  0.1066  
+   [A|AB]  -3.551  0.1066  
+   [AB|B]  -3.606  0.1008  
+   [A|B]   -3.634  0.09806 
+
+At node N8:
+   split   lnL     Rel.Prob
+   [A|A]   -3.001  0.1847  
+   [AB|A]  -3.284  0.1392  
+   [B|B]   -3.349  0.1305  
+   [B|A]   -3.354  0.1298  
+   [B|AB]  -3.493  0.113   
+   [A|AB]  -3.493  0.113   
+   [AB|B]  -3.632  0.09834 
+   [A|B]   -3.702  0.09166 
+
+At node N7:
+   split   lnL     Rel.Prob
+   [A|A]   -2.827  0.2198  
+   [AB|A]  -2.977  0.1892  
+   [B|A]   -3.159  0.1577  
+   [B|AB]  -3.566  0.105   
+   [A|AB]  -3.566  0.105   
+   [B|B]   -3.758  0.08662 
+   [AB|B]  -3.908  0.07457 
+   [A|B]   -4.09   0.06216 
+
+At node N6:
+   split   lnL     Rel.Prob
+   [AB|A]  -2.198  0.4125  
+   [A|A]   -2.381  0.3433  
+   [B|A]   -2.722  0.2442  
+

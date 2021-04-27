@@ -1,0 +1,39 @@
+reading tree...
+Tree 1 has 4 leaves.
+reading data...
+Reading species: sp1 10
+Reading species: sp2 01
+Reading species: sp3 01
+Reading species: sp4 01
+checking data...
+initializing nodes...
+initializing branch segments...
+setting default model...
+setting up tips...
+starting likelihood calculations
+initial -ln likelihood: 5.15895
+Optimizing (simplex) -ln likelihood.
+dis: 0.101833 ext: 8.14021e-06
+final -ln likelihood: 4.48106
+Ancestral splits for:	1
+	B|A	0.999967	(4.4811)
+
+Ancestral states for:	1
+	A_B	0.999984	(4.48108)
+
+Ancestral splits for:	2
+	B|B	0.631101	(4.94135)
+	B|A_B	0.336332	(5.57072)
+
+Ancestral states for:	2
+	B	0.631101	(4.94135)
+	A_B	0.368898	(5.4783)
+
+Ancestral splits for:	3
+	B|B	0.758828	(4.75704)
+	B|A_B	0.219878	(5.99575)
+
+Ancestral states for:	3
+	B	0.758828	(4.75704)
+	A_B	0.241172	(5.90331)
+

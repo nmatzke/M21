@@ -1,0 +1,50 @@
+Lagrange: likelihood analysis of geographic range evolution
+Version: 20130526
+Author: Richard Ree <rree@fieldmuseum.org>
+https://github.com/rhr/lagrange-python
+
+Newick tree with interior nodes labeled:
+(sp4:3.0,(sp3:2.0,(sp2:1.0,sp1:1.0)N4:1.0)N5:1.0)N6:0.0;
+
+
+Cladogram (branch lengths not to scale):
+  ------------------------------------------------------------------+ [B] sp4 
+N6+                                                                           
+  :                     --------------------------------------------+ [B] sp3 
+  --------------------N5+                                                     
+                        :                     ----------------------+ [B] sp2 
+                        --------------------N4+                               
+                                              ----------------------+ [A] sp1 
+
+
+
+Global ML at root node:
+  -lnL = 4.481
+  dispersal = 0.1011
+  extinction = 4.285e-09
+
+Ancestral range subdivision/inheritance scenarios ('splits') at
+internal nodes.
+
+* Split format: [left|right], where 'left' and 'right' are the ranges
+  inherited by each descendant branch (on the printed tree, 'left' is
+  the upper branch, and 'right' the lower branch).
+
+* Only splits within 2 log-likelihood units of the maximum for each
+  node are shown.  'Rel.Prob' is the relative probability (fraction of
+  the global likelihood) of a split.
+
+At node N6:
+   split   lnL     Rel.Prob
+   [B|B]   -4.758  0.7578  
+   [B|AB]  -5.991  0.2209  
+
+At node N5:
+   split   lnL     Rel.Prob
+   [B|B]   -4.942  0.6304  
+   [B|AB]  -5.568  0.3372  
+
+At node N4:
+   split  lnL     Rel.Prob
+   [B|A]  -4.481  1       
+

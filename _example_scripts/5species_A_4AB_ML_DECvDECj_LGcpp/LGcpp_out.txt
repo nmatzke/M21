@@ -1,0 +1,68 @@
+reading tree...
+Tree 1 has 5 leaves.
+reading data...
+Reading species: sp1 10
+Reading species: sp2 11
+Reading species: sp3 11
+Reading species: sp4 11
+Reading species: sp5 11
+checking data...
+initializing nodes...
+initializing branch segments...
+setting default model...
+setting up tips...
+starting likelihood calculations
+initial -ln likelihood: 12.7695
+Optimizing (simplex) -ln likelihood.
+dis: 0.882699 ext: 1.80181e-08
+final -ln likelihood: 1.30597
+Ancestral splits for:	1
+	A_B|A	0.410916	(2.19534)
+	A|A	0.34815	(2.3611)
+	B|A	0.240934	(2.72921)
+
+Ancestral states for:	1
+	A_B	0.65185	(1.73392)
+	A	0.34815	(2.3611)
+
+Ancestral splits for:	2
+	A|A	0.227567	(2.78629)
+	A_B|A	0.1876	(2.97942)
+	B|A	0.155498	(3.16709)
+	B|A_B	0.103409	(3.57504)
+	B|B	0.0887336	(3.72809)
+	A_B|B	0.0731498	(3.92122)
+	A|B	0.0606325	(4.1089)
+
+Ancestral states for:	2
+	A_B	0.6837	(1.68621)
+	A	0.227567	(2.78629)
+
+Ancestral splits for:	3
+	A|A	0.211914	(2.85755)
+	B|B	0.148499	(3.21315)
+	A_B|A	0.130635	(3.34132)
+	B|A	0.121388	(3.41474)
+	B|A_B	0.105479	(3.55522)
+	A_B|B	0.0915429	(3.69692)
+	A|B	0.0850629	(3.77034)
+
+Ancestral states for:	3
+	A_B	0.639587	(1.75291)
+	A	0.211914	(2.85755)
+	B	0.148499	(3.21315)
+
+Ancestral splits for:	4
+	A|A	0.355424	(2.34042)
+	B|B	0.308041	(2.4835)
+	A_B|A	0.0610242	(4.10246)
+	B|A	0.0592373	(4.13218)
+	B|A_B	0.0560219	(4.18799)
+	A_B|B	0.0528889	(4.24554)
+	A|B	0.0513402	(4.27526)
+
+Ancestral states for:	4
+	A	0.355424	(2.34042)
+	A_B	0.336535	(2.39503)
+	B	0.308041	(2.4835)
+

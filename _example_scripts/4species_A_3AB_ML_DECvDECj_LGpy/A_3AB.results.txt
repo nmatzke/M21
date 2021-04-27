@@ -1,0 +1,63 @@
+Lagrange: likelihood analysis of geographic range evolution
+Version: 20130526
+Author: Richard Ree <rree@fieldmuseum.org>
+https://github.com/rhr/lagrange-python
+
+Newick tree with interior nodes labeled:
+(sp4:3.0,(sp3:2.0,(sp2:1.0,sp1:1.0)N4:1.0)N5:1.0)N6:0.0;
+
+
+Cladogram (branch lengths not to scale):
+  ------------------------------------------------------------------+ [AB] sp4 
+N6+                                                                            
+  :                     --------------------------------------------+ [AB] sp3 
+  --------------------N5+                                                      
+                        :                     ----------------------+ [AB] sp2 
+                        --------------------N4+                                
+                                              ----------------------+ [A] sp1  
+
+
+
+Global ML at root node:
+  -lnL = 1.288
+  dispersal = 0.8493
+  extinction = 4.285e-09
+
+Ancestral range subdivision/inheritance scenarios ('splits') at
+internal nodes.
+
+* Split format: [left|right], where 'left' and 'right' are the ranges
+  inherited by each descendant branch (on the printed tree, 'left' is
+  the upper branch, and 'right' the lower branch).
+
+* Only splits within 2 log-likelihood units of the maximum for each
+  node are shown.  'Rel.Prob' is the relative probability (fraction of
+  the global likelihood) of a split.
+
+At node N6:
+   split   lnL     Rel.Prob
+   [A|A]   -2.228  0.3904  
+   [B|B]   -2.604  0.2682  
+   [AB|A]  -3.939  0.07059 
+   [B|A]   -4.02   0.06507 
+   [B|AB]  -4.165  0.05629 
+   [A|AB]  -4.165  0.05629 
+   [AB|B]  -4.314  0.04849 
+
+At node N5:
+   split   lnL     Rel.Prob
+   [A|A]   -2.613  0.2656  
+   [AB|A]  -3.023  0.1763  
+   [B|A]   -3.225  0.1441  
+   [B|B]   -3.581  0.1009  
+   [B|AB]  -3.635  0.09565 
+   [A|AB]  -3.635  0.09565 
+   [AB|B]  -3.991  0.067   
+   [A|B]   -4.193  0.05474 
+
+At node N4:
+   split   lnL     Rel.Prob
+   [AB|A]  -2.192  0.4049  
+   [A|A]   -2.3    0.3634  
+   [B|A]   -2.75   0.2317  
+

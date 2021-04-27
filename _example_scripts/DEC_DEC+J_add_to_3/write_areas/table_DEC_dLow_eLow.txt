@@ -1,0 +1,17 @@
+new_fns	V2	V3
+1	geog_00_00.data	-22.1786	0
+2	geog_00_10.data	-11.3588	0
+3	geog_00_01.data	-11.3588	0
+4	geog_00_11.data	-12.6115	0
+5	geog_10_00.data	-11.3588	0
+6	geog_10_10.data	0	1
+7	geog_10_01.data	-1.7918	0.167
+8	geog_10_11.data	-1.7917	0.167
+9	geog_01_00.data	-11.3588	0
+10	geog_01_10.data	-1.7918	0.167
+11	geog_01_01.data	0	1
+12	geog_01_11.data	-1.7917	0.167
+13	geog_11_00.data	-12.6115	0
+14	geog_11_10.data	-1.7917	0.167
+15	geog_11_01.data	-1.7917	0.167
+16	geog_11_11.data	-11.9184	0
