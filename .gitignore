@@ -39,3 +39,4 @@ vignettes/*.pdf
 .Renviron
 .DS_Store
 _example_scripts/.DS_Store
+.DS_Store
